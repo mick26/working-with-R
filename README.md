@@ -3,7 +3,7 @@
 
 ## Introduction
 
-[R](http://www.r-project.org/) is a freely available language and environment for statistical computing and graphics. R provides a wide variety of statistical and graphical techniques. The R environment is quite similar to [MatLabs](http://uk.mathworks.com/products/matlab/).
+[R](http://www.r-project.org/) is a freely available language and environment for statistical computing and graphics. R provides statistical and graphical techniques. The R environment seems quite similar to the [MatLab](http://uk.mathworks.com/products/matlab/) environment.
 
 
 
@@ -62,7 +62,7 @@ __rCharts should now be ready to use__
 ###Test Out rCharts
 
 You should now be able to run the examples give on the [rCharts GitHub site](http://ramnathv.github.io/rCharts/).
-The following is one of the examples given there. Enter the code below into __R__ and you should be presented with a new html page with a plot rendered in it. 
+The following is one of the examples given there. Enter the code below into __R__ and you should be presented with a new html page with a plot rendered on it. 
 <pre>
 > hair_eye = as.data.frame(HairEyeColor)
 > rPlot(Freq ~ Hair | Eye, color = 'Eye', data = hair_eye, type = 'bar')
