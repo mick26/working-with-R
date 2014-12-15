@@ -55,6 +55,8 @@ Check that rCharts is now listed under your libraries:
 Load the rCharts library:
 <pre>>library(rCharts)</pre>
 
+The following will show all resources including packages available in a session: 
+<pre>>sessionInfo()</pre>
 
 __rCharts should now be ready to use__
 
